@@ -133,7 +133,7 @@ open class DynamicCollectionViewFlowLayout: UICollectionViewFlowLayout {
     }
 
     private func isRTL(for view: UIView) -> Bool {
-        return UIView.userInterfaceLayoutDirection(for: view.semanticContentAttribute) == .rightToLeft
+        return false
     }
 
     @discardableResult
